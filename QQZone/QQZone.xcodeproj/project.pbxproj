@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C197C9B1EED9A9A000BD72A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C197C9A1EED9A9A000BD72A /* main.m */; };
-		6C197C9E1EED9A9A000BD72A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C197C9D1EED9A9A000BD72A /* AppDelegate.m */; };
-		6C197CA11EED9A9A000BD72A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C197CA01EED9A9A000BD72A /* ViewController.m */; };
 		6C197CA41EED9A9A000BD72A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C197CA21EED9A9A000BD72A /* Main.storyboard */; };
 		6C197CA61EED9A9A000BD72A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C197CA51EED9A9A000BD72A /* Assets.xcassets */; };
 		6C197CA91EED9A9A000BD72A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C197CA71EED9A9A000BD72A /* LaunchScreen.storyboard */; };
 		6C197CB41EED9A9B000BD72A /* QQZoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C197CB31EED9A9B000BD72A /* QQZoneTests.m */; };
 		6C197CBF1EED9A9B000BD72A /* QQZoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C197CBE1EED9A9B000BD72A /* QQZoneUITests.m */; };
+		6C597D221EEEC0B7002F490E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C597D131EEEC0B7002F490E /* UIView+Extension.m */; settings = {ASSET_TAGS = (); }; };
+		6C597D231EEEC0B7002F490E /* QZHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C597D161EEEC0B7002F490E /* QZHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6C597D241EEEC0B7002F490E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C597D1B1EEEC0B7002F490E /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
+		6C597D261EEEC0B7002F490E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C597D1D1EEEC0B7002F490E /* main.m */; settings = {ASSET_TAGS = (); }; };
+		6C597D271EEEC0B7002F490E /* QZDock.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C597D211EEEC0B7002F490E /* QZDock.m */; settings = {ASSET_TAGS = (); }; };
+		6C90AB501EEEC1BC0051B7DD /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6C90AB4F1EEEC1BC0051B7DD /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		6C90AB531EEEC24C0051B7DD /* QZIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB521EEEC24C0051B7DD /* QZIconView.m */; settings = {ASSET_TAGS = (); }; };
+		6C90AB561EEEC25F0051B7DD /* QZTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB551EEEC25F0051B7DD /* QZTabbar.m */; settings = {ASSET_TAGS = (); }; };
+		6C90AB591EEEC26C0051B7DD /* QZToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB581EEEC26C0051B7DD /* QZToolbar.m */; settings = {ASSET_TAGS = (); }; };
+		6C90AB5C1EEEC3190051B7DD /* QZConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB5B1EEEC3190051B7DD /* QZConst.m */; settings = {ASSET_TAGS = (); }; };
+		6C90AB5F1EEED5DD0051B7DD /* QZTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB5E1EEED5DD0051B7DD /* QZTabbarButton.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +44,36 @@
 
 /* Begin PBXFileReference section */
 		6C197C961EED9A9A000BD72A /* QQZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C197C9A1EED9A9A000BD72A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6C197C9C1EED9A9A000BD72A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6C197C9D1EED9A9A000BD72A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6C197C9F1EED9A9A000BD72A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6C197CA01EED9A9A000BD72A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6C197CA31EED9A9A000BD72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6C197CA51EED9A9A000BD72A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C197CA81EED9A9A000BD72A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6C197CAA1EED9A9A000BD72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C197CAF1EED9A9B000BD72A /* QQZoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQZoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C197CB31EED9A9B000BD72A /* QQZoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZoneTests.m; sourceTree = "<group>"; };
 		6C197CB51EED9A9B000BD72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6C197CBA1EED9A9B000BD72A /* QQZoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQZoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C197CBE1EED9A9B000BD72A /* QQZoneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQZoneUITests.m; sourceTree = "<group>"; };
 		6C197CC01EED9A9B000BD72A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C597D121EEEC0B7002F490E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		6C597D131EEEC0B7002F490E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		6C597D151EEEC0B7002F490E /* QZHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZHomeViewController.h; sourceTree = "<group>"; };
+		6C597D161EEEC0B7002F490E /* QZHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZHomeViewController.m; sourceTree = "<group>"; };
+		6C597D1A1EEEC0B7002F490E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C597D1B1EEEC0B7002F490E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C597D1D1EEEC0B7002F490E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C597D1E1EEEC0B7002F490E /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		6C597D201EEEC0B7002F490E /* QZDock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZDock.h; sourceTree = "<group>"; };
+		6C597D211EEEC0B7002F490E /* QZDock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZDock.m; sourceTree = "<group>"; };
+		6C90AB4F1EEEC1BC0051B7DD /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C90AB511EEEC24C0051B7DD /* QZIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZIconView.h; sourceTree = "<group>"; };
+		6C90AB521EEEC24C0051B7DD /* QZIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZIconView.m; sourceTree = "<group>"; };
+		6C90AB541EEEC25F0051B7DD /* QZTabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTabbar.h; sourceTree = "<group>"; };
+		6C90AB551EEEC25F0051B7DD /* QZTabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTabbar.m; sourceTree = "<group>"; };
+		6C90AB571EEEC26C0051B7DD /* QZToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZToolbar.h; sourceTree = "<group>"; };
+		6C90AB581EEEC26C0051B7DD /* QZToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZToolbar.m; sourceTree = "<group>"; };
+		6C90AB5A1EEEC3190051B7DD /* QZConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZConst.h; sourceTree = "<group>"; };
+		6C90AB5B1EEEC3190051B7DD /* QZConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZConst.m; sourceTree = "<group>"; };
+		6C90AB5D1EEED5DD0051B7DD /* QZTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTabbarButton.h; sourceTree = "<group>"; };
+		6C90AB5E1EEED5DD0051B7DD /* QZTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTabbarButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +124,7 @@
 		6C197C981EED9A9A000BD72A /* QQZone */ = {
 			isa = PBXGroup;
 			children = (
-				6C197C9C1EED9A9A000BD72A /* AppDelegate.h */,
-				6C197C9D1EED9A9A000BD72A /* AppDelegate.m */,
-				6C197C9F1EED9A9A000BD72A /* ViewController.h */,
-				6C197CA01EED9A9A000BD72A /* ViewController.m */,
-				6C197CA21EED9A9A000BD72A /* Main.storyboard */,
-				6C197CA51EED9A9A000BD72A /* Assets.xcassets */,
-				6C197CA71EED9A9A000BD72A /* LaunchScreen.storyboard */,
-				6C197CAA1EED9A9A000BD72A /* Info.plist */,
+				6C597D101EEEC0B7002F490E /* classes */,
 				6C197C991EED9A9A000BD72A /* Supporting Files */,
 			);
 			path = QQZone;
@@ -117,7 +133,10 @@
 		6C197C991EED9A9A000BD72A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6C197C9A1EED9A9A000BD72A /* main.m */,
+				6C197CA21EED9A9A000BD72A /* Main.storyboard */,
+				6C197CA51EED9A9A000BD72A /* Assets.xcassets */,
+				6C197CA71EED9A9A000BD72A /* LaunchScreen.storyboard */,
+				6C90AB4F1EEEC1BC0051B7DD /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +157,81 @@
 				6C197CC01EED9A9B000BD72A /* Info.plist */,
 			);
 			path = QQZoneUITests;
+			sourceTree = "<group>";
+		};
+		6C597D101EEEC0B7002F490E /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				6C597D141EEEC0B7002F490E /* Controller */,
+				6C597D181EEEC0B7002F490E /* Model */,
+				6C597D1F1EEEC0B7002F490E /* View */,
+				6C597D111EEEC0B7002F490E /* category */,
+				6C597D171EEEC0B7002F490E /* lib */,
+				6C597D191EEEC0B7002F490E /* other */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		6C597D111EEEC0B7002F490E /* category */ = {
+			isa = PBXGroup;
+			children = (
+				6C597D121EEEC0B7002F490E /* UIView+Extension.h */,
+				6C597D131EEEC0B7002F490E /* UIView+Extension.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		6C597D141EEEC0B7002F490E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6C597D151EEEC0B7002F490E /* QZHomeViewController.h */,
+				6C597D161EEEC0B7002F490E /* QZHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6C597D171EEEC0B7002F490E /* lib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		6C597D181EEEC0B7002F490E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6C597D191EEEC0B7002F490E /* other */ = {
+			isa = PBXGroup;
+			children = (
+				6C597D1E1EEEC0B7002F490E /* PrefixHeader.pch */,
+				6C597D1A1EEEC0B7002F490E /* AppDelegate.h */,
+				6C597D1B1EEEC0B7002F490E /* AppDelegate.m */,
+				6C597D1D1EEEC0B7002F490E /* main.m */,
+				6C90AB5A1EEEC3190051B7DD /* QZConst.h */,
+				6C90AB5B1EEEC3190051B7DD /* QZConst.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		6C597D1F1EEEC0B7002F490E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C597D201EEEC0B7002F490E /* QZDock.h */,
+				6C597D211EEEC0B7002F490E /* QZDock.m */,
+				6C90AB511EEEC24C0051B7DD /* QZIconView.h */,
+				6C90AB521EEEC24C0051B7DD /* QZIconView.m */,
+				6C90AB541EEEC25F0051B7DD /* QZTabbar.h */,
+				6C90AB551EEEC25F0051B7DD /* QZTabbar.m */,
+				6C90AB571EEEC26C0051B7DD /* QZToolbar.h */,
+				6C90AB581EEEC26C0051B7DD /* QZToolbar.m */,
+				6C90AB5D1EEED5DD0051B7DD /* QZTabbarButton.h */,
+				6C90AB5E1EEED5DD0051B7DD /* QZTabbarButton.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +296,7 @@
 		6C197C8E1EED9A9A000BD72A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = QZ;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = BJT;
 				TargetAttributes = {
@@ -243,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C90AB501EEEC1BC0051B7DD /* Info.plist in Resources */,
 				6C197CA91EED9A9A000BD72A /* LaunchScreen.storyboard in Resources */,
 				6C197CA61EED9A9A000BD72A /* Assets.xcassets in Resources */,
 				6C197CA41EED9A9A000BD72A /* Main.storyboard in Resources */,
@@ -270,9 +366,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C197CA11EED9A9A000BD72A /* ViewController.m in Sources */,
-				6C197C9E1EED9A9A000BD72A /* AppDelegate.m in Sources */,
-				6C197C9B1EED9A9A000BD72A /* main.m in Sources */,
+				6C90AB561EEEC25F0051B7DD /* QZTabbar.m in Sources */,
+				6C90AB5C1EEEC3190051B7DD /* QZConst.m in Sources */,
+				6C597D231EEEC0B7002F490E /* QZHomeViewController.m in Sources */,
+				6C597D271EEEC0B7002F490E /* QZDock.m in Sources */,
+				6C90AB531EEEC24C0051B7DD /* QZIconView.m in Sources */,
+				6C90AB591EEEC26C0051B7DD /* QZToolbar.m in Sources */,
+				6C597D221EEEC0B7002F490E /* UIView+Extension.m in Sources */,
+				6C597D261EEEC0B7002F490E /* main.m in Sources */,
+				6C90AB5F1EEED5DD0051B7DD /* QZTabbarButton.m in Sources */,
+				6C597D241EEEC0B7002F490E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +456,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = QQZone/classes/other/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -414,6 +518,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QQZone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BJT.QQZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QQZone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BJT.QQZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +604,7 @@
 				6C197CC51EED9A9B000BD72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C197CC61EED9A9B000BD72A /* Build configuration list for PBXNativeTarget "QQZoneTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +613,7 @@
 				6C197CC81EED9A9B000BD72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6C197CC91EED9A9B000BD72A /* Build configuration list for PBXNativeTarget "QQZoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +622,7 @@
 				6C197CCB1EED9A9B000BD72A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
