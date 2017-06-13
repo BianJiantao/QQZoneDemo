@@ -17,3 +17,7 @@ const CGFloat QZScreenPW  = 768;
  *  屏幕横屏宽度 (1024)
  */
 const CGFloat QZScreenLW = 1024;
+
+
+NSString *const QZTabbarDidSelectNotification = @"QZTabbarDidSelectNotification";
+NSString *const QZTabbarDidSelectButtonIndex = @"QZTabbarDidSelectButtonIndex";

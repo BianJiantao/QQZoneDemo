@@ -48,17 +48,18 @@
     return self;
 }
 
+
 -(void)layoutSubviews
 {
     [super layoutSubviews];
     
     self.toolbar.width = self.width;
     self.tabbar.width = self.width;
-    self.tabbar.height = 6 * QZDockPW;
+    self.tabbar.height = self.tabbar.subviews.count * QZDockPW;
     
     if (LandScape) { // 横屏
         
-        self.toolbar.height = self.width / 3;
+        self.toolbar.height = self.width / self.toolbar.subviews.count;
         
         self.iconView.y = 70;
         self.iconView.width = self.width * 0.4;

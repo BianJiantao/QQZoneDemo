@@ -58,6 +58,10 @@
     self.currentSelectedBtn = btn;
     btn.enabled = NO;
     
+    // 发出选中按钮的通知
+    [QZNotificationCenter postNotificationName:QZTabbarDidSelectNotification object:nil userInfo:@{QZTabbarDidSelectButtonIndex:@(btn.tag)}];
+    
+    
 }
 
 -(void)layoutSubviews
@@ -72,6 +76,7 @@
         btn.width = self.width;
         btn.x = 0;
         btn.y = i * btn.height;
+        btn.tag = i;
     }
     
 
