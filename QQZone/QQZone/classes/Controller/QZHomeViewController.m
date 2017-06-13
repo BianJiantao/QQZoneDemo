@@ -104,8 +104,6 @@
         make.right.equalTo(self.view.mas_right);
         
     }];
-    
-    
 }
 
 
