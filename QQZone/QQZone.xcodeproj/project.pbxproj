@@ -22,15 +22,7 @@
 		6C90AB591EEEC26C0051B7DD /* QZToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB581EEEC26C0051B7DD /* QZToolbar.m */; settings = {ASSET_TAGS = (); }; };
 		6C90AB5C1EEEC3190051B7DD /* QZConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB5B1EEEC3190051B7DD /* QZConst.m */; settings = {ASSET_TAGS = (); }; };
 		6C90AB5F1EEED5DD0051B7DD /* QZTabbarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB5E1EEED5DD0051B7DD /* QZTabbarButton.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB781EEEE77A0051B7DD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB621EEEE77A0051B7DD /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB791EEEE77A0051B7DD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB651EEEE77A0051B7DD /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB7A1EEEE77A0051B7DD /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB671EEEE77A0051B7DD /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB7B1EEEE77A0051B7DD /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB691EEEE77A0051B7DD /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB7C1EEEE77A0051B7DD /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB6D1EEEE77A0051B7DD /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB7D1EEEE77A0051B7DD /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB6F1EEEE77A0051B7DD /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB7E1EEEE77A0051B7DD /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB711EEEE77A0051B7DD /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB7F1EEEE77A0051B7DD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB741EEEE77A0051B7DD /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
-		6C90AB801EEEE77A0051B7DD /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C90AB761EEEE77A0051B7DD /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		C794C3A15EAB6B4FA96243C8 /* libPods-QQZone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCF3275026BDB70A659EE00C /* libPods-QQZone.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,29 +73,9 @@
 		6C90AB5B1EEEC3190051B7DD /* QZConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZConst.m; sourceTree = "<group>"; };
 		6C90AB5D1EEED5DD0051B7DD /* QZTabbarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTabbarButton.h; sourceTree = "<group>"; };
 		6C90AB5E1EEED5DD0051B7DD /* QZTabbarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTabbarButton.m; sourceTree = "<group>"; };
-		6C90AB611EEEE77A0051B7DD /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
-		6C90AB621EEEE77A0051B7DD /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
-		6C90AB631EEEE77A0051B7DD /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
-		6C90AB641EEEE77A0051B7DD /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
-		6C90AB651EEEE77A0051B7DD /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
-		6C90AB661EEEE77A0051B7DD /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
-		6C90AB671EEEE77A0051B7DD /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
-		6C90AB681EEEE77A0051B7DD /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
-		6C90AB691EEEE77A0051B7DD /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
-		6C90AB6A1EEEE77A0051B7DD /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
-		6C90AB6B1EEEE77A0051B7DD /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
-		6C90AB6C1EEEE77A0051B7DD /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
-		6C90AB6D1EEEE77A0051B7DD /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
-		6C90AB6E1EEEE77A0051B7DD /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
-		6C90AB6F1EEEE77A0051B7DD /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
-		6C90AB701EEEE77A0051B7DD /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		6C90AB711EEEE77A0051B7DD /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		6C90AB721EEEE77A0051B7DD /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		6C90AB731EEEE77A0051B7DD /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		6C90AB741EEEE77A0051B7DD /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		6C90AB751EEEE77A0051B7DD /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
-		6C90AB761EEEE77A0051B7DD /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
-		6C90AB771EEEE77A0051B7DD /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		78EA196F1546C8304B1FCEF2 /* Pods-QQZone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQZone.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QQZone/Pods-QQZone.debug.xcconfig"; sourceTree = "<group>"; };
+		7AB1154C39A39006E4DA74AF /* Pods-QQZone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QQZone.release.xcconfig"; path = "Pods/Target Support Files/Pods-QQZone/Pods-QQZone.release.xcconfig"; sourceTree = "<group>"; };
+		DCF3275026BDB70A659EE00C /* libPods-QQZone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QQZone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C794C3A15EAB6B4FA96243C8 /* libPods-QQZone.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07295C2C536EEFF8ACB9AE1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCF3275026BDB70A659EE00C /* libPods-QQZone.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6C197C8D1EED9A9A000BD72A = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +119,8 @@
 				6C197CB21EED9A9B000BD72A /* QQZoneTests */,
 				6C197CBD1EED9A9B000BD72A /* QQZoneUITests */,
 				6C197C971EED9A9A000BD72A /* Products */,
+				A4B654DB96A99C2868EC10FB /* Pods */,
+				07295C2C536EEFF8ACB9AE1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -195,7 +178,6 @@
 				6C597D181EEEC0B7002F490E /* Model */,
 				6C597D1F1EEEC0B7002F490E /* View */,
 				6C597D111EEEC0B7002F490E /* category */,
-				6C597D171EEEC0B7002F490E /* lib */,
 				6C597D191EEEC0B7002F490E /* other */,
 			);
 			path = classes;
@@ -217,14 +199,6 @@
 				6C597D161EEEC0B7002F490E /* QZHomeViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		6C597D171EEEC0B7002F490E /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				6C90AB601EEEE77A0051B7DD /* Masonry */,
-			);
-			path = lib;
 			sourceTree = "<group>";
 		};
 		6C597D181EEEC0B7002F490E /* Model */ = {
@@ -264,34 +238,13 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		6C90AB601EEEE77A0051B7DD /* Masonry */ = {
+		A4B654DB96A99C2868EC10FB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6C90AB611EEEE77A0051B7DD /* MASCompositeConstraint.h */,
-				6C90AB621EEEE77A0051B7DD /* MASCompositeConstraint.m */,
-				6C90AB631EEEE77A0051B7DD /* MASConstraint+Private.h */,
-				6C90AB641EEEE77A0051B7DD /* MASConstraint.h */,
-				6C90AB651EEEE77A0051B7DD /* MASConstraint.m */,
-				6C90AB661EEEE77A0051B7DD /* MASConstraintMaker.h */,
-				6C90AB671EEEE77A0051B7DD /* MASConstraintMaker.m */,
-				6C90AB681EEEE77A0051B7DD /* MASLayoutConstraint.h */,
-				6C90AB691EEEE77A0051B7DD /* MASLayoutConstraint.m */,
-				6C90AB6A1EEEE77A0051B7DD /* Masonry.h */,
-				6C90AB6B1EEEE77A0051B7DD /* MASUtilities.h */,
-				6C90AB6C1EEEE77A0051B7DD /* MASViewAttribute.h */,
-				6C90AB6D1EEEE77A0051B7DD /* MASViewAttribute.m */,
-				6C90AB6E1EEEE77A0051B7DD /* MASViewConstraint.h */,
-				6C90AB6F1EEEE77A0051B7DD /* MASViewConstraint.m */,
-				6C90AB701EEEE77A0051B7DD /* NSArray+MASAdditions.h */,
-				6C90AB711EEEE77A0051B7DD /* NSArray+MASAdditions.m */,
-				6C90AB721EEEE77A0051B7DD /* NSArray+MASShorthandAdditions.h */,
-				6C90AB731EEEE77A0051B7DD /* NSLayoutConstraint+MASDebugAdditions.h */,
-				6C90AB741EEEE77A0051B7DD /* NSLayoutConstraint+MASDebugAdditions.m */,
-				6C90AB751EEEE77A0051B7DD /* View+MASAdditions.h */,
-				6C90AB761EEEE77A0051B7DD /* View+MASAdditions.m */,
-				6C90AB771EEEE77A0051B7DD /* View+MASShorthandAdditions.h */,
+				78EA196F1546C8304B1FCEF2 /* Pods-QQZone.debug.xcconfig */,
+				7AB1154C39A39006E4DA74AF /* Pods-QQZone.release.xcconfig */,
 			);
-			path = Masonry;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6C197CC31EED9A9B000BD72A /* Build configuration list for PBXNativeTarget "QQZone" */;
 			buildPhases = (
+				D8907754A01AC618D805BF5D /* [CP] Check Pods Manifest.lock */,
 				6C197C921EED9A9A000BD72A /* Sources */,
 				6C197C931EED9A9A000BD72A /* Frameworks */,
 				6C197C941EED9A9A000BD72A /* Resources */,
+				4A100BEA0611802C9C5C06EE /* [CP] Embed Pods Frameworks */,
+				29E34C0D7C120CC2B1DF2BB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -420,30 +376,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		29E34C0D7C120CC2B1DF2BB8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQZone/Pods-QQZone-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A100BEA0611802C9C5C06EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QQZone/Pods-QQZone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8907754A01AC618D805BF5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C197C921EED9A9A000BD72A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C90AB801EEEE77A0051B7DD /* View+MASAdditions.m in Sources */,
 				6C90AB561EEEC25F0051B7DD /* QZTabbar.m in Sources */,
 				6C90AB5C1EEEC3190051B7DD /* QZConst.m in Sources */,
 				6C597D231EEEC0B7002F490E /* QZHomeViewController.m in Sources */,
 				6C597D271EEEC0B7002F490E /* QZDock.m in Sources */,
 				6C90AB531EEEC24C0051B7DD /* QZIconView.m in Sources */,
-				6C90AB7C1EEEE77A0051B7DD /* MASViewAttribute.m in Sources */,
-				6C90AB781EEEE77A0051B7DD /* MASCompositeConstraint.m in Sources */,
 				6C90AB591EEEC26C0051B7DD /* QZToolbar.m in Sources */,
 				6C597D221EEEC0B7002F490E /* UIView+Extension.m in Sources */,
-				6C90AB7A1EEEE77A0051B7DD /* MASConstraintMaker.m in Sources */,
-				6C90AB791EEEE77A0051B7DD /* MASConstraint.m in Sources */,
-				6C90AB7F1EEEE77A0051B7DD /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				6C90AB7B1EEEE77A0051B7DD /* MASLayoutConstraint.m in Sources */,
-				6C90AB7E1EEEE77A0051B7DD /* NSArray+MASAdditions.m in Sources */,
 				6C597D261EEEC0B7002F490E /* main.m in Sources */,
 				6C90AB5F1EEED5DD0051B7DD /* QZTabbarButton.m in Sources */,
 				6C597D241EEEC0B7002F490E /* AppDelegate.m in Sources */,
-				6C90AB7D1EEEE77A0051B7DD /* MASViewConstraint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +570,7 @@
 		};
 		6C197CC41EED9A9B000BD72A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78EA196F1546C8304B1FCEF2 /* Pods-QQZone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -583,11 +579,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BJT.QQZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		6C197CC51EED9A9B000BD72A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB1154C39A39006E4DA74AF /* Pods-QQZone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -596,6 +594,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.BJT.QQZone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

@@ -95,15 +95,15 @@
     UIViewController *vc = self.childViewControllers[index];
     self.currentShowingVc = vc;
     [self.view addSubview:vc.view];
-    
     [vc.view mas_makeConstraints:^(MASConstraintMaker *make) {
-    
+        
         make.top.equalTo(self.view.mas_top);
         make.bottom.equalTo(self.view.mas_bottom);
         make.left.equalTo(self.dock.mas_right);
         make.right.equalTo(self.view.mas_right);
         
     }];
+
 }
 
 
