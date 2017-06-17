@@ -50,6 +50,11 @@
     [self willRotateToInterfaceOrientation:self.interfaceOrientation duration:0];
 }
 
+-(void)dealloc
+{
+    [QZNotificationCenter removeObserver:self];
+}
+
 -(void)setupChildVCs
 {
     for (int i = 0; i < 6; i++) {
